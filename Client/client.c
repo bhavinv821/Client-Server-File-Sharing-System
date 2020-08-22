@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
   int server, portNumber, pid, n;
   struct sockaddr_in servAdd;     // server socket address
   int fd,n1;
-  
+  char b;
  if(argc != 3){
     printf("Call model: %s <IP Address> <Port Number>\n", argv[0]);
     exit(0);
