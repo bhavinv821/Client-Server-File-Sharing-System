@@ -1,3 +1,5 @@
+//This program is to share files between client and server
+
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <netinet/in.h>
