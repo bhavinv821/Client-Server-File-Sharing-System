@@ -18,7 +18,6 @@
 int main(int argc, char *argv[]){
   char message[255];
   char filename[255];
-  char ab;
   int server, portNumber, pid, n;
   struct sockaddr_in servAdd;     // server socket address
   int fd,n1;
